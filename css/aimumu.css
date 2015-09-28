@@ -3,17 +3,36 @@
 	height:100%;
 }
 .wrapper {
-	background-color:rgba(255,255,255,0.5);
-	width:1170px;
+	width:970px;
 	text-align:center;
 	margin:auto;
 	height:100%;
+	background-color:rgba(255,255,255,0.5);
 }
-
+.wrapper h1{
+	color:#666;
+}
 /*--header--*/
 .header {
 	padding:15px 0;
 	margin-bottom:40px;
 	background-color:#999;
 	width:100%;
+}
+/*--photos--*/
+.photos {
+	margin-top:40px;
+}
+.photos .container {
+	padding: 20px 0;
+	border-top:1px solid #ddd;
+}
+.photos .row {
+	margin:10px 0;
+}
+.photos img {
+	width:100%;
+	height:233px;
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,0.5);
+	box-shadow:0 1px 6px rgba(0,0,0,0.5);
 }
