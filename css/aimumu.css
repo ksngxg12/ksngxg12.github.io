@@ -35,6 +35,14 @@
 	text-shadow:0 5px 5px rgba(0,0,0,.9);
 	text-decoration:none;
 }
+
+/*--text--*/
+.content .article-context{
+	text-align:left;
+	
+}
+
+
 /*--orbit--*/
 
 #sun {
