@@ -1,5 +1,4 @@
 .bg {
-	background-color:#ddd;
 	height:100%;
 }
 .wrapper {
@@ -7,7 +6,7 @@
 	text-align:center;
 	margin:auto;
 	height:100%;
-	background-color:rgba(255,255,255,0.5);
+	background-color:rgba(255,255,255,0.9);
 	position:relative;
 }
 .wrapper h1{
@@ -19,6 +18,22 @@
 	margin-bottom:40px;
 	background-color:#999;
 	width:100%;
+}
+/*--lists--*/
+.list-group {
+	padding:0;
+	margin:50px auto;
+	background:#ccc;
+	border-radius:4px;
+	width:400px;
+	}
+.list-group .list-group-item{
+	background:none;
+	border-bottom:2px solid #ddd;
+}
+.list-group-item a:hover,.list-group-item a:focus{
+	text-shadow:0 5px 5px rgba(0,0,0,.9);
+	text-decoration:none;
 }
 /*--orbit--*/
 
