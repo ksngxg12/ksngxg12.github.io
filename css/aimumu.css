@@ -50,6 +50,9 @@
 }
 
 /*--orbit--*/
+.orbit{
+	margin-top:50px;
+}
 
 #sun {
 	position:static;
