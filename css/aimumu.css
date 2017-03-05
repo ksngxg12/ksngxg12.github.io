@@ -8,6 +8,7 @@
 	margin:auto;
 	height:100%;
 	background-color:rgba(255,255,255,0.5);
+	position:relative;
 }
 .wrapper h1{
 	color:#666;
